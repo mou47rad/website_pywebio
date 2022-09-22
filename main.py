@@ -9,7 +9,7 @@ from pywebio.pin import *
 
 
 def main():
-    name = input("What is your name?")
+    name = str(input("What is your name?"))
     greetings = 'Greetings',name,'!'
     popup('Greetings', greetings)
     toast('New message 🔔')
