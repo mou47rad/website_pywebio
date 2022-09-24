@@ -12,7 +12,7 @@ def main():
     name = str(input("What is your name?"))
     greetings = 'Greetings',name,'!'
     popup('Greetings', greetings)
-    toast('New message 🔔')
+    toast('New message :) 🔔')
 
 #start_server(main, port=8080, debug=True)
 pywebio.platform.flask.webio_view(main, cdn=True, session_expire_seconds=None, session_cleanup_interval=None, allowed_origins=None, check_origin=None)
